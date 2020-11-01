@@ -1,0 +1,40 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo {
+    width: 100px;
+    object-fit: contain; /* i.e. maintain aspect ratio of the image */
+    margin: 0 20px; /* top&bottom left&right */
+    margin-top: 18px;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    border-radius: 24px;
+
+}
+
+.header__searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    
+}
+
+.header__searchIcon {
+    padding: 5px;
+    height: 22px !important;
+    background-color: #f5a442;
+
+}
+
