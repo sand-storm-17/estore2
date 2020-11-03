@@ -8,7 +8,7 @@ function App() {
     <div className="app"> 
       {/*/app not App according to BEM naming convention.*/}
 
-      {/*HEADER*/}
+      {/*HEADER*/}s
       <Header />
 
 
